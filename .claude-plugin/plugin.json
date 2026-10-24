@@ -1,0 +1,10 @@
+{
+  "name": "development-workflow",
+  "version": "0.1.0",
+  "description": "Understand, plan, build, prove, review and deliver work across languages and environments.",
+  "author": { "name": "Audienti" },
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/audienti/development-workflow",
+  "repository": "https://github.com/audienti/development-workflow",
+  "keywords": ["development", "planning", "verification", "review", "delivery"]
+}
