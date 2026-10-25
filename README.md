@@ -2,6 +2,8 @@
 
 Give an agent a repeatable method to understand a problem, agree on a small complete solution, build it, prove it, independently review it, and finish the agreed delivery.
 
+Start with the product goal: who it serves, the larger problem and the result it should achieve. Keep that purpose in view before choosing a task solution, including during idea and new-product work. A shared glossary, architecture decisions, explicit later backlog and separate do-not-do list keep agents from drifting in meaning or scope. See [product context](skills/development-workflow/references/product-context.md).
+
 The methodology works across languages and environments: applications, libraries, CLIs, infrastructure and documentation. Repository setup supplies the actual commands, interfaces, safety rules and delivery endpoint. The skills do not require Rails, a Unix shell, GitHub issues, a particular CI system, cloud provider, agent vendor or model.
 
 ## Install and adopt
@@ -31,6 +33,18 @@ Then ask your agent:
 For another agent, obtain this repository and have the agent read [workflow-setup](skills/workflow-setup/SKILL.md). The package is ordinary Markdown. The agent needs file access and a supported way to load repository instructions; it does not need a plugin API. Agents that do not automatically read `AGENTS.md` need a pointer in their documented instruction entry point. Setup checks this explicitly.
 
 Setup keeps a versioned copy of the skill bundle in `.development-workflow/skills/`, a project profile in `.development-workflow/project.md`, and a short default-routing block in the repository's existing instructions. No machine-private plugin-cache path is required by the adopted repo. It preserves existing content and symlinks, reports conflicts, and does not silently overwrite a locally customized bundle. See [setup](skills/workflow-setup/SKILL.md) for reruns, updates and removal.
+
+The profile links to the project's product purpose, glossary, Architecture Decision Records (ADRs), backlog and do-not-do records. Setup reuses existing owners or creates proportionate records; it does not invent product decisions to fill templates. These records belong to the project and survive plugin removal. A missing material product goal must be resolved before planning a solution.
+
+Communication aims for 80–85% ASD-STE100-inspired plain English. Important domain terms and specialized meanings belong in the glossary. This is a writing target, not an official compliance percentage. [ASD's guidance](https://asd-ste100.org/about_STE.html) permits project-specific terminology.
+
+## Upgrade an adopted repository
+
+Obtain the new plugin release through your host's plugin update process, then ask:
+
+> Use workflow-setup to update this repository's adopted workflow to v0.2.0. Preserve our local changes and agreed product records. Add any missing purpose, glossary, architecture-decision, backlog and do-not-do links, and ask about unresolved product decisions.
+
+Installing the new global package does not update the snapshot already copied into a repo. Setup must compare and update that snapshot explicitly. You do not need to repeat accepted product answers. The [release notes](CHANGELOG.md) describe the new requirements.
 
 ## Skills
 

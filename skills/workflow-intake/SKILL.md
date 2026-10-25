@@ -7,9 +7,17 @@ description: 'Establish or resume the evidence-backed problem, current dispositi
 
 Use the shared contract in [methodology](../development-workflow/references/methodology.md). Keep one visible issue, plan, or short contract as the task record. Do not create extra records when an existing one is current.
 
-## Open with the seven answers
+## Start with the product, including an idea
 
-Show the questions with researched answers. Do not make the developer repeat facts or decisions already recorded. Separate evidence, accepted decisions, proposals, and unknowns.
+Read [product context](../development-workflow/references/product-context.md) and the existing product-purpose record before narrowing to a task. Establish who the product serves, the larger problem and why it matters, the result people should achieve, the high-level product concept, how success could be recognized, and the boundaries already agreed. A feature list, stack choice or technical bug description is not a mission.
+
+For a new idea, the first useful outcome may be a clarified concept, decision or experiment. Do not assume the idea needs software. Propose answers from evidence, mark assumptions, and ask one missing consequential product question at a time. Do not skip to design or implementation because the user named a component to build.
+
+Record agreed purpose in its durable owner and link this task's contribution to it. Reuse established purpose for tactical work; if it is materially missing or contradicted, resolve it before choosing a dependent solution. On resume, recover this product context alongside the task.
+
+## Then establish the seven task answers
+
+Show the questions with researched answers, tied to the product goal. Do not make the developer repeat facts or decisions already recorded. Separate evidence, accepted decisions, proposals, and unknowns. Use the glossary's meanings; resolve conflicting terms instead of inventing replacements.
 
 1. **What is the real problem?** State the reported symptom, the owned cause if known, and the link between them.
 2. **Why does this matter, and is it still needed?** State the user or business effect and the current disposition: unfixed, partly fixed, fixed, or no work needed. Support the disposition with current evidence.
@@ -40,3 +48,5 @@ Reuse explicit agreement from the current conversation and task record. On resum
 If intent is clear and the work is tactical, use a short contract: problem, scope, expected result, protected behavior, and proof. Do the symptom check and proportional design explanation, but skip a substantial-task interview. Repeated symptoms, broad consequences, or unresolved choices make the task substantial.
 
 For substantial work, continue to [plan](../workflow-plan/SKILL.md).
+
+Record accepted exclusions distinctly: later work goes in the actual backlog; do-not-do decisions go in their own list with reasons. Link both from the intake. Missing disposition is an open question, not permission to put everything into a future phase.

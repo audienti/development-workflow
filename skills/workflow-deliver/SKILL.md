@@ -11,6 +11,8 @@ Read repository instructions, the project profile, [shared methodology](../devel
 
 Give a clear account of the accepted problem and why it matters, planned versus built behavior, rule/state owners, why the solution works, executed proof, resolved review findings and simplifications. State confidence (High, Medium or Low) and its evidence, exclusions, remaining uncertainty and the actual delivery stage. If the design cannot be explained plainly, inspect its complexity; prose alone is not proof.
 
+Connect the result to the accepted product goal. Use the shared glossary and check that agreed terms and consequential ADRs are recorded. Verify that each accepted later exclusion has a real backlog entry and each do-not-do decision has its reason and scope in the separate list. Do not mark a task complete merely because an exclusion was mentioned in chat, or move unfinished accepted work out of scope without a decision.
+
 Reconcile in both directions:
 
 1. Every accepted requirement has implementation or an accepted no-work disposition, meaningful current proof, resolved review and the required delivery evidence.
