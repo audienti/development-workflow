@@ -9,7 +9,9 @@ Use the shared [methodology](../development-workflow/references/methodology.md).
 
 ## Define the whole outcome
 
-Carry forward the seven intake answers, current disposition, named use cases, accepted decisions, open assumptions, exclusions, and protected behavior. State the smallest complete customer path and its observable result. Do not replace the accepted task with a smaller slice; keep any slices as a checklist under the same task.
+Start with the accepted product purpose and state how this task contributes to it. Carry forward the seven task answers, current disposition, named use cases, accepted decisions, open assumptions and protected behavior. State the smallest complete customer path and its observable result. Do not replace the accepted task with a smaller slice; keep any slices as a checklist under the same task. If product purpose is materially missing, use [intake](../workflow-intake/SKILL.md) before choosing a solution.
+
+Use the records in [product context](../development-workflow/references/product-context.md). List current scope, link actual backlog entries for agreed later work, and link the separate do-not-do decisions with their reasons. Do not treat “not in this release” as “never,” or leave later work only in a chat or exclusions paragraph. Missing authority to write a backlog item is a visible gap. Removing accepted current work still requires a scope decision.
 
 For a clear tactical change, use a short contract instead of a substantial plan. Include the problem, scope, expected result, must-preserve behavior, proportional design explanation, and proof. Do not add routine approvals or documents.
 
@@ -26,7 +28,7 @@ Write a proportional code-quality explainer in the existing record before implem
 
 Do not begin dependent implementation while a material behavior or architecture choice remains unresolved. Continue independent investigation.
 
-Record consequential architecture choices in the repo's existing decision record with context, choice, alternatives, reasons and consequences. Routine implementation choices do not each need a new record. Update the owning glossary for agreed terms when that edit is in scope.
+Record consequential architecture choices as Architecture Decision Records (ADRs), using the existing owner and the product-context format: context, options, choice, reasons, consequences, status, decision source and links. Keep proposed choices separate from accepted ones. Routine implementation choices do not each need an ADR. An ADR's rejected option is not automatically a do-not-do decision. Maintain the glossary for agreed terms; do not use an invented term as an accepted design premise.
 
 ## Check impact and duplication
 

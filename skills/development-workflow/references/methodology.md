@@ -4,6 +4,18 @@ Read this with the repository instructions and project profile. It is the shared
 
 Apply this methodology as mandatory workflow only when the repository has explicitly adopted it or the user explicitly requests the methodology or the particular skill. A coordinator invocation within either scope can route to the stage skills. Merely installing the plugin or automatically selecting a skill does not adopt the workflow. If neither condition holds, follow the repository's existing process without changing its defaults; do not initiate setup unless requested.
 
+## Product purpose, shared terms and boundaries
+
+Read [product context](product-context.md) before applying a stage, including a directly requested skill. Establish the product-level goal before the task-level solution: who it serves, the larger problem, the intended result and the high-level concept. This applies in idea, new-product and existing-product work. Reuse accepted answers; ask one consequential question when material purpose is missing, unclear or contradicted. Do not choose a dependent solution or build while that question is unresolved.
+
+Each task must show how it serves the accepted product purpose and respects its boundaries. Keep that link in plans, briefs and recovery records, and check it during review and delivery. A small task can use one sentence and existing links; it does not need another mission interview.
+
+Maintain one owner each for product purpose, the glossary, Architecture Decision Records (ADRs), the later backlog and the do-not-do list. Reuse existing docs or tracker views. The profile links to their owners; it does not copy their definitions. Missing records are established proportionately under existing edit authority, with unknowns and proposed decisions visible. Empty files do not establish shared understanding.
+
+Use about 80–85% ASD-STE100-inspired plain English as the project's writing target, not an invented compliance score. Use short active sentences and familiar words. Define important domain terms, specialized meanings and abbreviations in the shared glossary, and use those meanings consistently. Keep new agent-created terms proposed until agreed; do not disguise an unsettled idea with a new name. The product-context guide owns the detailed writing and terminology rules.
+
+Keep scope explicit: **now** is the accepted current task; **later** has an actual backlog entry; **do not do** has an accepted, separately recorded prohibition with its scope and reason. An unresolved choice stays unresolved. A rejected architecture option does not automatically become a product prohibition, and an agent cannot quietly move prohibited work into the backlog. Changing an accepted boundary needs an explicit decision with history retained.
+
 ## Authority and scope
 
 The user supplies product judgment; the primary agent owns requirements, integration, proof and the final decision. Reuse accepted decisions. Do not invent approvals for steps already authorized, or infer permission from a tool being installed.
@@ -14,7 +26,7 @@ Read-only authorization does not permit writes. Destructive changes, production-
 
 ## One outcome and one record
 
-Keep original requirements, amendments, current-state disposition, accepted scope and exclusions, protected behavior, named proof, endpoint and unresolved assumptions together. Keep test status (Not run / Red / Green / Blocked), refactor, review and delivery status separate. Green is not Delivered.
+Keep original requirements, amendments, product-purpose link and task contribution, current-state disposition, accepted scope, linked later/do-not-do decisions, protected behavior, named proof, endpoint and unresolved assumptions together. Keep test status (Not run / Red / Green / Blocked), refactor, review and delivery status separate. Green is not Delivered.
 
 Substantial work uses bounded tasks with a readable board: Ready, Building, Verifying, Reviewing, Delivered; Blocked names a real dependency. The board can be a view of the existing tracker or native plan; do not add another specification or invent a required board service. The parent outcome remains open until all accepted work is proved.
 
@@ -48,7 +60,7 @@ Run focused checks during changes, then the required gates. Reuse still-valid ev
 
 ## Communication and cost
 
-Lead with what happened and whether it is solved, partly solved or still open. Name completed functionality, what remains unbuilt and what remains unproved, plus the highest delivery stage actually observed. Use short plain sentences and established terms. Keep proposals separate from accepted decisions. Record agreed terminology in its owner when edits are in scope.
+Lead with what happened and whether it is solved, partly solved or still open. Name completed functionality, what remains unbuilt and what remains unproved, plus the highest delivery stage actually observed. Apply the product-context writing target to questions, plans, handoffs, reviews and final replies. Use the agreed glossary and keep proposals separate from accepted decisions. Record agreed terminology in its owner when edits are in scope; missing edit authority stays visible instead of becoming an invented definition.
 
 Estimate effort and token use for substantial work with uncertainty. Prefer narrow reads, bounded delegation and reused evidence. Retain usage counters where exposed, aggregate each request once, and report missing attribution rather than fabricated totals. At closure include per-model tokens and API-equivalent cost when measurable, using current official provider rates, currency, pricing date and tier. Distinguish the estimate from a subscription bill. Missing telemetry does not block otherwise completed work.
 

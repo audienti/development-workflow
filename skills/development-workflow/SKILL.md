@@ -9,6 +9,14 @@ Read the repository's current instructions, its `.development-workflow/project.m
 
 If the repository has not adopted the package, explicit use can guide the current task without installing anything. Discover the relevant commands from source; ask only about material unknowns. Use [setup](../workflow-setup/SKILL.md) only when adoption is requested. Installation or discovery alone must not edit repo instructions.
 
+## Keep the product goal in view
+
+Before choosing work, read the accepted product purpose and the shared records described in [product context](references/product-context.md). State who the product serves, the larger problem and intended result, then how this task contributes. A task's immediate symptom or requested feature does not replace the product's goal.
+
+This applies to ideas and new products too. If material purpose is missing or disputed, start [intake](../workflow-intake/SKILL.md) with the product questions before planning a solution or choosing a technical design. Research facts while waiting; do not invent the mission. Reuse accepted answers for clear tasks instead of repeating the interview.
+
+Use the glossary's agreed terms. Read the relevant architecture decisions, later backlog and do-not-do boundaries before proposing work. Keep the purpose link and current scope in the task/recovery record; check them again on resume, a changed proposal and before delivery. Neither a new idea nor an implementation convenience authorizes drift from the product goal.
+
 ## Route the work
 
 Recover the current accepted task and evidence before starting a new record. Preserve the original request and amendments, definition of done, remaining work, endpoint, current revision, findings and next action. Read back actual repository/runtime state before replaying an interrupted external effect.

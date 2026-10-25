@@ -4,6 +4,8 @@ This release adapts the user's `docs/development-workflow.md` and related skills
 
 ## Workflow coverage
 
+Release 0.2.0 also incorporates the owner's October 25 field-use corrections: product mission must precede task-level problem solving; shared terminology and simple communication must be explicit; architecture decisions, later backlog and reasoned do-not-do boundaries need durable owners. These requirements extend the original summary rather than claiming they were fully enforced in v0.1.0. Their owner is [product context](../skills/development-workflow/references/product-context.md), used by setup, the coordinator and stage skills.
+
 | Source section | Package owner |
 |---|---|
 | Whole flow and task ownership | [Coordinator](../skills/development-workflow/SKILL.md) and [shared methodology](../skills/development-workflow/references/methodology.md) |

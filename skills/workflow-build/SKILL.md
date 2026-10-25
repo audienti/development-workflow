@@ -7,6 +7,8 @@ description: "Implement an accepted plan or clear tactical change through meanin
 
 Read repository instructions, the project profile and the [shared methodology](../development-workflow/references/methodology.md). Recover the accepted requirements, current disposition, delivery endpoint and proof. If substantial work lacks an accepted design, use [intake](../workflow-intake/SKILL.md) and [plan](../workflow-plan/SKILL.md); agreement on the symptom alone does not approve a repair design.
 
+Recover the product-purpose link, glossary meanings, applicable ADRs and current/later/do-not-do boundaries too. Build only the accepted current work. If a shortcut conflicts with the product goal or a recorded prohibition, stop that dependent choice and resolve it; do not redefine terms, implement a backlog item or reopen a do-not-do decision on your own.
+
 For a clear tactical bug, perform the intake symptom check, state the short contract and proportional rule/state/architecture explainer, and fix the narrowest responsible owner. No broad interview is needed. Repeated related failures or unclear consequences require substantial diagnosis. UI changes still need agreed placement/prototype and real interface proof.
 
 ## Implement and prove

@@ -10,10 +10,24 @@ Used by workflow-setup to write `.development-workflow/project.md`. Fill the rel
 
 ## Project and environment
 
-- Purpose and actual customer interfaces.
+- Actual customer interfaces and link to the accepted product purpose below.
 - Languages/runtime versions, operating systems and supported development/build targets.
 - Dependency/bootstrap owner and relevant manifest/configuration paths.
 - Working directory and shell/tool context for each command. Remote/container/hardware prerequisites where relevant.
+
+## Product context owners
+
+Link the single existing owner for each record. If absent, establish it under [product-context guidance](product-context.md). Do not duplicate its contents here or treat a path alone as proof that the decision is understood.
+
+| Record | Owning file or tracker location | Current state |
+|---|---|---|
+| Product purpose | Who it serves, larger problem, intended result, concept and success evidence | Accepted / proposed / unresolved, with decision source |
+| Glossary | Agreed terms, definitions, distinctions and aliases | Accepted terms and unresolved meanings |
+| Architecture Decision Records | Existing decision index or location | Proposed / accepted / superseded choices |
+| Later backlog | Existing tracker backlog or repo record | Actual deferred items; no automatic permission to build |
+| Do-not-do list | Separate record of prohibited work | Scope, reason, decision source and explicit changes |
+
+Use the 80–85% plain-English target and the glossary for important specialized terms. Keep missing product answers visible; project commands cannot substitute for product purpose.
 
 ## Commands and proof
 

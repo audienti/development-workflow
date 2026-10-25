@@ -21,6 +21,9 @@ Provide the original request and amendments, accepted requirements and exclusion
 
 Ask the reviewer to check:
 
+- Is the product-level purpose understood, including who it serves and the intended result, and does this task serve that purpose rather than only its local symptom?
+- Are important terms defined and used consistently, with short plain communication and proposed terms kept separate from agreed meanings?
+- Are consequential architecture choices recorded, later exclusions linked to real backlog entries, and do-not-do decisions kept separately with reasons? Did the change silently move a boundary or misclassify a rejected option?
 - Do the requirements faithfully cover the request, including meaningful positive paths and protected behavior?
 - Does the current artifact meet them, including permissions, state, side effects, failure/recovery and compatibility where relevant?
 - Do tests and runtime checks detect plausible failure, and do their results apply to this revision and inputs?

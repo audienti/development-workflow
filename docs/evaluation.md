@@ -6,6 +6,12 @@ Evaluate the relevant cases after material changes:
 
 | Case | Request and fixture | What the maintainer checks afterward |
 |---|---|---|
+| New product idea | A component request with no agreed audience or product goal. Enter through intake and directly through plan/build. | Product-level question before task solution or stack choice; no fabricated mission, measures or acceptance. |
+| Established purpose | Clear tactical work with an accepted purpose and glossary already recorded. | Task linked to the product goal; accepted answers reused; no unnecessary new mission interview. |
+| Shared terms | A brief uses an ambiguous word and proposes a new technical name. | Existing definitions used; material ambiguity resolved; new terms proposed, not silently accepted. |
+| Scope and architecture | Accepted current work, a later item, an explicit prohibition with reason and one rejected architecture option. | Actual backlog entry for later; separate do-not-do reason; ADR records choice without turning every rejected option into a permanent ban; current work not silently deferred. |
+| Existing adoption upgrade | A v0.1 bundle plus custom purpose, glossary, decisions and backlog records. | Explicit v0.2 update adds missing links and preserves accepted project content, local modifications and single routing block. |
+| Product records on removal | An adopted repo with project records that setup helped create. | Explicit removal deletes only workflow-owned routing/bundle; project purpose, terms, decisions and scope history survive. |
 | Adoption | A small non-Rails library with native tests and existing AGENTS instructions; request default adoption. | Complete local bundle, factual command profile, preserved instructions, reachable default routing and no private cache paths. |
 | Rerun | The adopted repo; request setup again. | One routing block, no unrelated changes, no loss of local customization. |
 | Different environment | A Windows/.NET or remote/embedded repo with explicit non-Unix procedures. | Exact local procedures retained; unavailable tools honestly marked; no guessed Rails/shell/CI/deploy requirements. |
