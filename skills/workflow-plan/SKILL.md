@@ -36,9 +36,11 @@ Before finalizing a bug-fix or feature plan, complete [blast-radius analysis](..
 
 ## Specify behavior and work
 
+Define the use cases or user stories before implementation. Give each story and each scenario a distinct stable ID. One story may contain several scenarios. For each required scenario, use Given / When / Then and name the executable assertion that proves it. Map every scenario to its implementation task and retained result. A clear tactical change may use a compact entry per scenario, retaining the same trace and Red/Green proof. Already-satisfied behavior and docs-only or refactor-only work need no manufactured Red result.
+
 Write behavior examples before coding. Include positive outcomes and meaningful negative cases for protected behavior, permissions, invalid input, or failure paths affected by the change. Name the expected observable result and the check that proves it. Test the actual outcome through each accepted interface this change affects; do not require extra API or command-line surfaces that the product does not have. Route or entry-point coverage alone is not proof.
 
-Use Given / When / Then to state the starting condition, customer action and expected result. Keep one requirement-to-proof table in the existing record:
+Keep one requirement-to-proof table in the existing record:
 
 | Requirement / behavior | Task | Named check and level | Expected assertion | Evidence / status |
 |---|---|---|---|---|
@@ -46,12 +48,12 @@ Use Given / When / Then to state the starting condition, customer action and exp
 
 Each task brief includes its parent outcome, allowed files/scope, inputs and current evidence, expected output, protected behavior, dependencies, owner, named assertions, endpoint and unresolved findings. Keep test, refactor, review and delivery status separate. Substantial work uses the existing readable board; do not create a competing specification.
 
-For user-visible UI work, agree where it belongs and how the user reaches it, completes the task, and leaves. Create a standalone HTML prototype with synthetic data, relevant states, and actions. Link it from the plan and review placement and missing functions before implementation. Keep the prototype proportionate to the change.
+For user-visible UI work, agree where it belongs and how the user reaches it, completes the task, and leaves. Create a standalone HTML prototype with synthetic data, relevant states, and actions. The prototype must enact the same accepted scenarios, including recovery and resumption. For each scenario, record the known context, smallest input, system-completed work, unavoidable human decision, retry initiator and owner of the partial-success display. Remove avoidable steps, repeated input and decisions. A small UI change covers only the affected state; do not invent savings or adjacent screens. Link the prototype from the plan and review placement and missing functions before implementation. Keep the prototype proportionate to the change.
 
 Break implementation into small, complete tasks with clear owners, inputs, outputs, dependencies, and proof. Put the main constraint proof early. Include verification, independent review where required, and the agreed delivery endpoint. Give a rough effort or token estimate with uncertainty; do not present it as a promise.
 
 ## Agree and continue
 
-Resolve material product and architecture choices at the existing planning boundary. Record the accepted scope and exclusions. Do not add a second approval gate when existing agreement covers the work.
+Resolve material product and architecture choices at the existing planning boundary. Focused grilling happens at story definition and prototype review. Present the recommended behavior and resolve one material question at a time. During implementation, reopen alignment only for new material evidence or decisions. Record consequential answers in the existing story, prototype, tests and ADR when appropriate. Reuse existing agreement and do not add routine stop ceremonies. Record the accepted scope and exclusions. Do not add a second approval gate when existing agreement covers the work.
 
 Once the plan is accepted, the primary owns implementation integration, verification, review, and delivery through the agreed endpoint. Link [intake](../workflow-intake/SKILL.md) for problem framing. Later stages follow the package's build, verify, review, and deliver skills.

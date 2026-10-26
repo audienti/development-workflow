@@ -28,6 +28,8 @@ Read-only authorization does not permit writes. Destructive changes, production-
 
 Keep original requirements, amendments, product-purpose link and task contribution, current-state disposition, accepted scope, linked later/do-not-do decisions, protected behavior, named proof, endpoint and unresolved assumptions together. Keep test status (Not run / Red / Green / Blocked), refactor, review and delivery status separate. Green is not Delivered.
 
+The stage-specific acceptance, scenario-trace and coverage contract is defined in [workflow-plan](../../workflow-plan/SKILL.md) and [workflow-verify](../../workflow-verify/SKILL.md).
+
 Substantial work uses bounded tasks with a readable board: Ready, Building, Verifying, Reviewing, Delivered; Blocked names a real dependency. The board can be a view of the existing tracker or native plan; do not add another specification or invent a required board service. The parent outcome remains open until all accepted work is proved.
 
 At material boundaries retain cwd/workspace, branch or equivalent revision, changed files, valid evidence inputs, findings, endpoint, next action and blocker. After compaction or handoff, resume this record and inspect actual state. Do not reconstruct the task from memory or replay effects.
