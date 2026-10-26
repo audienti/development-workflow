@@ -42,7 +42,7 @@ Communication aims for 80–85% ASD-STE100-inspired plain English. Important dom
 
 Obtain the new plugin release through your host's plugin update process, then ask:
 
-> Use workflow-setup to update this repository's adopted workflow to v0.2.0. Preserve our local changes and agreed product records. Add any missing purpose, glossary, architecture-decision, backlog and do-not-do links, and ask about unresolved product decisions.
+> Use workflow-setup to update this repository's adopted workflow to v0.3.0. Preserve our local changes and agreed product records. Add any missing purpose, glossary, architecture-decision, backlog and do-not-do links, and ask about unresolved product decisions.
 
 Installing the new global package does not update the snapshot already copied into a repo. Setup must compare and update that snapshot explicitly. You do not need to repeat accepted product answers. The [release notes](CHANGELOG.md) describe the new requirements.
 
